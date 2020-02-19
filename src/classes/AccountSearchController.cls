@@ -10,7 +10,7 @@ public with sharing class AccountSearchController {
                     BillingStreet, BillingCity,
                     BillingState, BillingPostalCode
                     ORDER BY Name
-                    LIMIT 50 //change by gaurav
+                    LIMIT 40 //change by gaurav
                 )
             ];
        accounts = searchResults[0];
